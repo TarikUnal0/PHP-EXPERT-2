@@ -23,21 +23,21 @@ Fietsenmaker Snelle Jelle wil na een reparatiebeurt zijn klanten per SMS of What
 
 - Iedere gebruiker dient in te loggen en uit te loggen​
 
-- Er zijn twee type gebruikers: __medewerkers__ en __klanten​__
+- Er zijn twee type gebruikers: **medewerkers** en **klanten​**
 - Iedere klant kan 0 of meerdere fietsen hebben
 
-Een __klant__ kan ​
+Een **klant** kan ​
 
 - Al haar reparaties in een overzicht zien​
 - Kan alle reparaties aan een specifieke fiets bekijken
 
-Een __medewerker__ kan ​
+Een **medewerker** kan ​
 
 - Alle reparaties bekijken, wijzigen of verwijderen​
 - Alle fietsen bekijken, wijzigen of verwijderen​
 - Alle klanten bekijken, wijzigen of verwijderen​
 
-Een __medewerker__ heeft de volgende eigenschappen:
+Een **medewerker** heeft de volgende eigenschappen:
 
 - voornaam
 - achternaam
@@ -46,7 +46,7 @@ Een __medewerker__ heeft de volgende eigenschappen:
 - wachtwoord
 - rol
 
-Een __reparatie__ heeft de volgende eigenschappen:
+Een **reparatie** heeft de volgende eigenschappen:
 
 - titel
 - datum
@@ -54,7 +54,7 @@ Een __reparatie__ heeft de volgende eigenschappen:
 - opmerkingen
 - kosten
 
-Een __fiets__ heeft de volgende eigenschappen:
+Een **fiets** heeft de volgende eigenschappen:
 
 - merk
 - model (man of vrouw)
@@ -64,7 +64,7 @@ Een __fiets__ heeft de volgende eigenschappen:
 
 ## Opdracht
 
-Jij dient een volledig werkende Webapplicatie op te leveren. Je wordt beoordeeld op je presentatie van het product en de uitleg van de flow van je code. 
+Jij dient een volledig werkende Webapplicatie op te leveren. Je wordt beoordeeld op je presentatie van het product en de uitleg van de flow van je code.
 
 ### Projectgrens
 
