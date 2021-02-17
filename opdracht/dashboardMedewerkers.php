@@ -61,6 +61,7 @@ include "db.conn.php";
                     <th scope="col">Type</th>
                     <th scope="col">Kleur</th>
                     <th scope="col">Remsoort</th>
+                    <th scope="col">ID</th>
                     <th scope="col">Bewerken</th>
                 </tr>
                 <?php
@@ -73,6 +74,7 @@ include "db.conn.php";
                     echo "<td>" . $rows['type'] . "</td>";
                     echo "<td>" . $rows['kleur'] . "</td>";
                     echo "<td>" . $rows['remsoort'] . "</td>";
+                    echo "<td>" . $rows['id'] . "</td>";
                     echo "<td><a class='btn btn-success' href='verwijderFiets.php?id=$fid'>Verwijder </i></a>";
                     echo "<a class='btn btn-success' href='updateFiets.php?id=$fid'>Wijzigen </i></a>";
                     echo "<a class='btn btn-success' href='addFiets.php'>Toevoegen </i></a></td></tr>";
@@ -92,6 +94,7 @@ include "db.conn.php";
                     <th scope="col">Datum & Tijd</th>
                     <th scope="col">Opmerkingen</th>
                     <th scope="col">Kosten</th>
+                    <th scope="col">Fiets Id</th>
                     <th scope="col">Bewerken</th>
                 </tr>
                 <?php
@@ -103,6 +106,7 @@ include "db.conn.php";
                     echo "<td>" . $rows['datumtijd'] . "</td>";
                     echo "<td>" . $rows['opmerkingen'] . "</td>";
                     echo "<td>" . $rows['kosten'] . "</td>";
+                    echo "<td>" . $rows['fiets_id'] . "</td>";
 
                     echo "<td><a class='btn btn-success' href='verwijderReperatie.php?id=$rid'>Verwijder </i></a>";
                     echo "<a class='btn btn-success' href='updateReperatie.php?id=$rid'>Wijzigen </i></a>";

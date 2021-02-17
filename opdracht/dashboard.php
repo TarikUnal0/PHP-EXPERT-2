@@ -30,6 +30,7 @@ $user = $_SESSION['id'];
                     <th scope="col">Datum & Tijd</th>
                     <th scope="col">opmerkingen</th>
                     <th scope="col">Kosten</th>
+                    <th scope="col">Fiets ID</th>
 
                 </tr>
                 <?php
@@ -40,7 +41,8 @@ $user = $_SESSION['id'];
                     echo "<tr><td>" . $rows['titel'] . "</td>";
                     echo "<td>" . $rows['datumtijd'] . "</td>";
                     echo "<td>" . $rows['opmerkingen'] . "</td>";
-                    echo "<td>" . $rows['kosten'] . "</td></tr>";
+                    echo "<td>" . $rows['kosten'] . "</td>";
+                    echo "<td>" . $rows['fiets_id'] . "</td></tr>";
                 }
                 ?>
             </table>
@@ -58,6 +60,7 @@ $user = $_SESSION['id'];
                     <th scope="col">Type</th>
                     <th scope="col">Kleur</th>
                     <th scope="col">Remsoort</th>
+                    <th scope="col">ID</th>
                     <th scope="col">Bekijk</th>
                 </tr>
                 <?php
@@ -70,6 +73,7 @@ $user = $_SESSION['id'];
                     echo "<td>" . $rows['type'] . "</td>";
                     echo "<td>" . $rows['kleur'] . "</td>";
                     echo "<td>" . $rows['remsoort'] . "</td>";
+                    echo "<td>" . $rows['id'] . "</td>";
                     echo "<td><a class='btn btn-success' href='fietsview.php?id=$uemail'>Bekijk reperatie </i></a>";
                 }
                 ?>

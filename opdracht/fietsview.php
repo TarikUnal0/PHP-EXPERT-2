@@ -48,6 +48,7 @@ $stmt->execute();
                     echo "<td>" . $rows['datumtijd'] . "</td>";
                     echo "<td>" . $rows['opmerkingen'] . "</td>";
                     echo "<td>" . $rows['kosten'] . "</td></tr>";
+                    echo "<td>" . $rows['kosten'] . "</td></tr>";
                 }
                 ?>
 
